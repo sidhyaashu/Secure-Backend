@@ -1,0 +1,13 @@
+{
+  "name": "secure-backend",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@arcjet/bun": "^1.0.0-alpha.33",
+    "hono": "^4.6.12"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
